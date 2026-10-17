@@ -1,0 +1,53 @@
+# Gradle / Kotlin / Android generated files
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+**/captures/
+local.properties
+
+# Android Studio and other editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Local SDK/toolchain configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+keystore.properties
+keystore.properties.*
+signing.properties
+signing.properties.*
+secrets.properties
+credentials.json
+service-account*.json
+google-services.json
+
+# Installers, local deliveries and generated verification logs
+*.apk
+*.aab
+*.apks
+*.idsig
+*.hprof
+*.log
+dist/
+verification/
+
+# Keep the Gradle wrapper JAR under version control
+!gradle/wrapper/gradle-wrapper.jar

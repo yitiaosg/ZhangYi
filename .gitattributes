@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.png binary
+# Preserve third-party license originals, including their original whitespace.
+LICENSES/** -text -whitespace
+app/src/main/assets/open-source/*.txt -text -whitespace

@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.ZhangYi" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+    <color name="icon_background">#DBEDE5</color>
+</resources>
